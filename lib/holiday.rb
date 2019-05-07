@@ -6,8 +6,9 @@ def second_supply_for_fourth_of_july(holiday_hash)
     holiday_hash.each do |seasons, holiday|
         holiday.each do |holiday, values|
           values.each do |activity|
-            puts activity
-
+            if activity == "BBQ"
+              empty_array << activity
+            end
       end
     end
   end
