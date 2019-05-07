@@ -11,7 +11,6 @@ def second_supply_for_fourth_of_july(holiday_hash)
           stringed = empty_cart.to_s
           return stringed
       end
-
       end
     end
   end
