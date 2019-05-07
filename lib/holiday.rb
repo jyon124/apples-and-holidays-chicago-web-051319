@@ -2,8 +2,10 @@ require 'pry'
 
 
 def second_supply_for_fourth_of_july(holiday_hash)
+  empty_array = []
     holiday_hash.each do |seasons, holiday|
-      puts holiday
+      if seasons = :fourth_of_july
+        
 
   end
   # given that holiday_hash looks like this:
