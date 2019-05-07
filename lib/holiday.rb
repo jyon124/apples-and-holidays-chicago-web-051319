@@ -2,16 +2,7 @@ require 'pry'
 
 
 def second_supply_for_fourth_of_july(holiday_hash)
-  empty_array = []
-    holiday_hash.each do |seasons, holiday|
-        holiday.each do |holidays, values|
-          values.each do |activity|
-            if activity == "BBQ"
-              empty_array << activity
-              return empty_array.join
-            end
-      end
-    end
+  holiday_hash[:summer][:fourth_of_july][1]
   end
 
   # given that holiday_hash looks like this:
