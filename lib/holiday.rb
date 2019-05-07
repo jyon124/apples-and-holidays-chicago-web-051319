@@ -8,8 +8,8 @@ def second_supply_for_fourth_of_july(holiday_hash)
           values.each do |activity|
             if activity == "BBQ"
               empty_array << activity
-              converted = empty_array
-              return converted[0]
+              empty_array << "Watermelon"
+              return empty_array[0]
             end
       end
     end
