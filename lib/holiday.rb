@@ -3,9 +3,7 @@ require 'pry'
 def second_supply_for_fourth_of_july(holiday_hash)
   holiday_hash.each do |season, holidays|
     holidays.each do |holidays, value|
-      if value == "BBQ"
-        return value
-      end
+      puts "#{value}"
     end
   end
   # given that holiday_hash looks like this:
