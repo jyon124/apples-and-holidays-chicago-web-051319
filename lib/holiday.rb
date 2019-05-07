@@ -7,7 +7,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
         if food == "BBQ"
           return food
       end
-        
+
       end
     end
   end
