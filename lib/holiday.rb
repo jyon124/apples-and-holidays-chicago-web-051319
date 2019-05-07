@@ -10,7 +10,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
           empty_cart << food
           stringed = empty_cart.to_s
           return stringed
-      end
+        end
       end
     end
   end
