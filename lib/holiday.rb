@@ -9,7 +9,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
             if activity == "BBQ"
               empty_array << activity
               converted = empty_array
-              return converted
+              return converted[0]
             end
       end
     end
