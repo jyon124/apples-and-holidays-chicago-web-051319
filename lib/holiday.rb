@@ -7,7 +7,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
         holiday.each do |holiday, values|
           values.each do |activity|
             puts activity
-          end
+
       end
     end
   end
