@@ -5,9 +5,9 @@ def second_supply_for_fourth_of_july(holiday_hash)
   empty_cart = []
   holiday_hash.each do |season, holidays|
     holidays.each do |holidays, value|
-
-      puts value
-
+      value.each do |food|
+      puts food
+    end
     end
   end
   # given that holiday_hash looks like this:
