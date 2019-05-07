@@ -8,7 +8,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
       value.each do |food, some|
         if some == :fourth_of_july
           empty_cart << some
-          return emp
+          return empty_cart
     end
     end
   end
