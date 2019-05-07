@@ -12,6 +12,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
       end
     end
   end
+  return empty_array
   # given that holiday_hash looks like this:
   # {
   #   :winter => {
