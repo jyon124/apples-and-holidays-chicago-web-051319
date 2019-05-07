@@ -6,10 +6,10 @@ def second_supply_for_fourth_of_july(holiday_hash)
   holiday_hash.each do |season, holidays|
     holidays.each do |holidays, value|
       value.each do |food, some|
-        
+
           puts some
 
-        
+
     end
     end
   end
