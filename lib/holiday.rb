@@ -5,7 +5,8 @@ def second_supply_for_fourth_of_july(holiday_hash)
   empty_array = []
     holiday_hash.each do |seasons, holiday|
       if seasons = :fourth_of_july
-
+        empty_array << holiday
+      end
 
   end
   # given that holiday_hash looks like this:
