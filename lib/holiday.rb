@@ -6,7 +6,8 @@ def second_supply_for_fourth_of_july(holiday_hash)
     holidays.each do |holidays, value|
       value.each do |food|
         if food == "BBQ"
-          return food
+          empty_cart << food
+          return empty_cart
       end
 
       end
