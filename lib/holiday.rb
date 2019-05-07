@@ -8,7 +8,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
           values.each do |activity|
             if activity == "BBQ"
               empty_array << activity
-              converted = empty_array.to_s
+              converted = empty_array
               return converted
             end
       end
