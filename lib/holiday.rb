@@ -2,16 +2,7 @@ require 'pry'
 
 
 def second_supply_for_fourth_of_july(holiday_hash)
-  empty_cart = []
-  holiday_hash.each do |season, holidays|
-    holidays.each do |holidays, value|
-      value.each do |food, some|
-        if food == :fourth_of_july
-          empty_cart << some
-          return empty_cart
-        end
-    end
-    end
+
   end
   # given that holiday_hash looks like this:
   # {
