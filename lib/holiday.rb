@@ -9,6 +9,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
         if some == :fourth_of_july
           empty_cart << some
           return empty_cart
+        end
     end
     end
   end
