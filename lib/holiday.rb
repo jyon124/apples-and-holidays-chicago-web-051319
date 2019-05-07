@@ -7,7 +7,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
       if holiday == :fourth_of_july
         holiday.each do |values|
           empty_array << values
-          puts emp
+          puts empty_array
         end
       end
     end
