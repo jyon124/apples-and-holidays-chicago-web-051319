@@ -4,11 +4,10 @@ require 'pry'
 def second_supply_for_fourth_of_july(holiday_hash)
   empty_array = []
     holiday_hash.each do |seasons, holiday|
-      if holiday == :fourth_of_july
-        holiday.each do |values|
-          empty_array << values
-          puts empty_array
-
+        holiday.each do |holiday, values|
+          values.each do |activity|
+            puts activity
+          end
       end
     end
   end
