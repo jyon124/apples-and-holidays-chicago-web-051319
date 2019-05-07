@@ -8,7 +8,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
         holiday.each do |values|
           empty_array << values
           puts empty_array
-      
+
       end
     end
   end
