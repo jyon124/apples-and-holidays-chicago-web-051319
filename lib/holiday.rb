@@ -4,7 +4,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   holiday_hash.each do |season, holidays|
     holidays.each do |holidays, value|
       if value == "BBQ"
-        return "#{value}"
+        return holiday_hash
       end
     end
   end
