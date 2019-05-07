@@ -1,7 +1,8 @@
 require 'pry'
 
-empty_cart = []
+
 def second_supply_for_fourth_of_july(holiday_hash)
+  empty_cart = []
   holiday_hash.each do |season, holidays|
     holidays.each do |holidays, value|
       value.each do |food|
