@@ -8,7 +8,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
       value.each do |food, some|
         some.each do |some|
           puts some
-  
+
         end
     end
     end
