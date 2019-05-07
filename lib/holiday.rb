@@ -7,7 +7,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
       if seasons = :fourth_of_july
         empty_array << holiday
       end
-
+      puts empty_array
   end
   # given that holiday_hash looks like this:
   # {
